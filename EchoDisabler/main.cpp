@@ -69,7 +69,7 @@ ULONG64 __fastcall hookedFunc(ULONG64 p1, ULONG64 p2, ULONG64 p3, ULONG64 p4) {
 				c.param3 = removeFromProtectedProcesses(pid);
 			}
 			CVM(&c, (PVOID)address, sizeof(COMMAND));
-			return 0xb00b;
+			return 0x12345;
 		}
 	}
 	return OriginalFunction(p1,p2,p3,p4);
