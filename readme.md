@@ -5,6 +5,6 @@ A kernel mode driver designed for manual mapping with the ability to
 - Remove strings from CSRSS
 - Protect a process from having a handle opened to it
 
-Create an issue if theres another method to be patched that requires kernel mode 
+Can be mapped via KDMapper
 
 User mode implemented [here](https://github.com/w451/EchoDisablerUM)
